@@ -1,0 +1,47 @@
+@use '../rulsAndVars' as *;
+.contact{
+  width: 100%;
+  height: fit-content;
+  padding: 1vh 0;
+  // height: $contactHeight;
+  background: $bodyBg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // position: fixed;
+  font-weight: 500;
+  // &.main-contact{
+  //   position: fixed;
+  //   bottom: $footerHeight;
+  // }
+  .icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a{
+      padding: 10px 10px;
+      color: $secondColor;
+      font-size: 3rem;
+      border: .4vh solid $secondColor;
+      border-radius: 4vw;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: 200ms;
+      &:hover{
+        background: $secondColor;
+        color: $bodyBg;
+      }
+      span{
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      i{
+        font-size: 4rem;
+        transition: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

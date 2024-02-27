@@ -1,0 +1,18 @@
+@use './vars' as *;
+html.dir{
+  font-size: min(1.3vw,1.3vh) !important;
+}
+body.dir{
+  p,
+  h1,
+  a,
+  h2,
+  ul{
+    direction: rtl;
+  }
+  @media (max-width:500px){
+    a.active{
+      width: 23rem !important;
+    }
+  }
+}

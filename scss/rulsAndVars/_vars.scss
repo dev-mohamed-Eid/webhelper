@@ -1,0 +1,21 @@
+// $bodyBg:#221e31;
+$bodyBg:#191625;
+// $bodyBg:#0e0b1b;
+$mainColor:#fff;
+$secondColor:#00fdf0;
+// sections height
+// $navHeight:15vh;
+// $contactHeight:11vh;
+// $footerHeight:0vh;
+// $introHight:100vh - $navHeight - $contactHeight - $footerHeight;
+// mange lootie
+:root{
+  --lootie-vh:1vh;
+  --lootie-vw:1vw;
+}
+@media (max-width:500px) {
+  :root{
+    --lootie-vh:1vh;
+    --lootie-vw:1.8vw;
+  }
+}

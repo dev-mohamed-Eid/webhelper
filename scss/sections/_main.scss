@@ -1,0 +1,26 @@
+@use '../rulsAndVars' as *;
+// .portfolio{
+//    height: $introHight;
+// }
+main{
+  position: relative;
+  flex-grow: 1;
+  &>section{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: $bodyBg;
+    transition: 1s;
+    transition-property: initial !important;
+    left: 110vw;
+    transform: scale(.4);
+    &:nth-child(even){
+      left: -110vw;
+    }
+    &.active{
+      left: 0vw;
+      transform: scale(1);
+      z-index: 2;
+    }
+  }
+}

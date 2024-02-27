@@ -1,0 +1,13 @@
+@use '../rulsAndVars' as *;
+header{
+  display: none;
+  h1{
+    height: 20vh;
+    font-size: 3rem;
+    padding: 0 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
